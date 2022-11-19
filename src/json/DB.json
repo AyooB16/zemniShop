@@ -1,0 +1,97 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "titre": "Produit 1",
+        "category":"category1",
+        "description":"bla bla bla bla ",
+        "price": 50.5,
+        "images":[
+          "assets/img/product/product-1.jpg",
+          "assets/img/product/product-2.jpg"
+        ],
+        "comments":[
+          {
+            "nom":"Ahmed",
+            "message":"gooood",
+            "email":"elisabeth_higgins@mondicil.immobilien",
+            "note":3
+          },
+          {
+            "nom":"Souhail",
+            "message":"haja tayara",
+            "email":"glenda_bender@apextri.lotto",
+            "note":4
+          }
+         ],
+        "disponibility": true,
+        "dateMiseEnVente":"10-10-2022"
+      },
+      {
+        "id": 2,
+        "titre": "Produit 2",
+        "category":"category2",
+        "description":"details produit 2 ",
+        "price": 10,
+        "images":[
+          "assets/img/product/product-3.jpg",
+          "assets/img/product/product-4.jpg"
+        ],
+        "comments":[
+          {
+            "nom":"Oussema",
+            "message":"qualite khayba",
+            "email":"oussema@gmail.com",
+            "note":1
+          }
+         ],
+        "disponibility": true,
+        "dateMiseEnVente":"11-02-2022"
+      } 
+    ],
+    "adminUsers":[
+      {
+        "id":1,
+        "login":"admin1",
+        "pass":"123456789",
+        "nom":"Aloui",
+        "prenom":"Oussema",
+        "psudo":"magic_borscht",
+        "email":"oussema@gmail.com"
+      },
+      {
+        "id":2,
+        "login":"admin2",
+        "pass":"987654321",
+        "nom":"Shili",
+        "prenom":"Ayoub",
+        "psudo":"AyooB",
+        "email":"ayoub@gmail.com"
+      }
+    ],
+    "commandsList":[
+      {
+        "listeArticles":[
+          {
+            "prod":2,
+            "qte":10
+          },
+          {
+            "prod":1,
+            "qte":3
+          }
+        ],
+        "prixTotale":500
+      },
+      {
+        "listeArticles":[
+          {
+            "prod":1,
+            "qte":20
+          }
+        ],
+        "prixTotale":100.5
+      }
+    ]
+  }
+

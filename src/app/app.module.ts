@@ -15,6 +15,7 @@ import { CheckOutComponent } from './components/Pages/check-out/check-out.compon
 import { BlogComponent } from './components/blog/blog.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ErrorComponent } from './components/error/error.component';
+import { AdminComponent } from './components/admin/admin.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +29,7 @@ import { ErrorComponent } from './components/error/error.component';
     BlogComponent,
     ContactComponent,
     ErrorComponent,
+    AdminComponent,
   ],
   imports: [
     BrowserModule,

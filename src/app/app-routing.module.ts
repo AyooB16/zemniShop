@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AdminComponent } from './components/admin/admin.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ErrorComponent } from './components/error/error.component';
@@ -11,16 +12,17 @@ import { ShopDetailsComponent } from './components/Pages/shop-details/shop-detai
 import { ShopComponent } from './components/shop/shop.component';
 
 const routes: Routes = [
-  {path:'home',title:'home',component:HomeComponent},
-  {path:'shop',title:'shop',component:ShopComponent},
-  {path:'pages/aboutUs',title:'about us',component:AboutUsComponent},
-  {path:'pages/shopDetails',title:'shop details',component:ShopDetailsComponent},
-  {path:'pages/shopCart',title:'shop cart',component:ShopCartComponent},
-  {path:'pages/checkOut',title:'check out',component:CheckOutComponent},
-  {path:'blog',title:'blog',component:BlogComponent},
-  {path:'contact',title:'contactMe',component:ContactComponent},
+  {path:'admin',title:'Admin Panel',component:AdminComponent},
+  {path:'home',title:'Zemni Shop',component:HomeComponent},
+  {path:'shop',title:'Shop',component:ShopComponent},
+  {path:'pages/aboutUs',title:'About Us',component:AboutUsComponent},
+  {path:'pages/shopDetails',title:'Shop Details',component:ShopDetailsComponent},
+  {path:'pages/shopCart',title:'Shop Cart',component:ShopCartComponent},
+  {path:'pages/checkOut',title:'Check Out',component:CheckOutComponent},
+  {path:'blog',title:'Blog',component:BlogComponent},
+  {path:'contact',title:'Contact Us',component:ContactComponent},
   {path:'',redirectTo:'home',pathMatch:'full'},
-  {path:'**',title:'page not found 404',component:ErrorComponent}
+  {path:'**',title:'Page Not Found 404',component:ErrorComponent}
 ];
 
 @NgModule({

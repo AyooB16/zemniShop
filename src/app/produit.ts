@@ -1,3 +1,4 @@
+import { Comment } from "./comment";
 export class Produit {
     constructor(
         public id:number,
