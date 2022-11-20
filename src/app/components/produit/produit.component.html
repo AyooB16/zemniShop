@@ -1,15 +1,17 @@
 
 
-    <div class="product__item">
-        <div class="product__item__pic set-bg" [style.background-image]="'url( '+ image + ')'">
-            <ul class="product__hover">
-                <li><a ><img src="assets/img/icon/heart.png" alt=""></a></li>
-                <li><a [href]="image"><img src="assets/img/icon/search.png" alt=""></a></li>
-            </ul>
-        </div>
+    <div class="product__item"   >
+        <a routerLink="/shop"> <!-- theb tnahi el link hetha w thotou f blasa okhra gedou , khater aslan zedtou f lekher 9bal ma nor9ed-->
+            <div  class="product__item__pic set-bg" [style.background-image]="'url( '+ image + ')'">
+              <ul class="product__hover">
+                  <li><a ><img src="assets/img/icon/heart.png" alt=""></a></li>
+                    <li><a [href]="image"><img src="assets/img/icon/search.png" alt=""></a></li>
+                </ul>
+            </div>
+        </a>
         <div class="product__item__text">
             <h6>{{title}}</h6>
-            <a href="#" class="add-cart">+ Add To Cart</a>
+            <a role="button" (click)="addToCart(id)" class="add-cart">+ Add To Cart</a>
             <div class="rating">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
