@@ -9,6 +9,7 @@ export class Produit {
         public images :String[],
         public comments :Comment[],
         public disponibility:boolean,
+        public stars:number,
         public dateMiseEnVente:Date ){}
        
 }

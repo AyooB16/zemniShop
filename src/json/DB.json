@@ -2,7 +2,7 @@
     "products": [
       {
         "id": 1,
-        "titre": "Produit 1",
+        "title": "Produit 1",
         "category":"category1",
         "description":"bla bla bla bla ",
         "price": 50.5,
@@ -25,11 +25,12 @@
           }
          ],
         "disponibility": true,
+        "stars":4,
         "dateMiseEnVente":"10-10-2022"
       },
       {
         "id": 2,
-        "titre": "Produit 2",
+        "title": "Produit 2",
         "category":"category2",
         "description":"details produit 2 ",
         "price": 10,
@@ -46,6 +47,29 @@
           }
          ],
         "disponibility": true,
+        "stars":3,
+        "dateMiseEnVente":"11-02-2022"
+      } ,
+      {
+        "id": 3,
+        "title": "Produit 3",
+        "category":"category3",
+        "description":"details produit3 ",
+        "price": 10,
+        "images":[
+          "assets/img/product/product-5.jpg",
+          "assets/img/product/product-6.jpg"
+        ],
+        "comments":[
+          {
+            "nom":"Oussema",
+            "message":"qualite khayba",
+            "email":"oussema@gmail.com",
+            "note":1
+          }
+         ],
+        "disponibility": true,
+        "stars":2,
         "dateMiseEnVente":"11-02-2022"
       } 
     ],
