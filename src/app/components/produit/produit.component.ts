@@ -14,6 +14,7 @@ export class ProduitComponent implements OnInit {
   @Input() image!:String;
   @Input() disponibility!:boolean;
   @Input() stars!:number;
+  /*@Input()xyz!:produit*/ 
   str!:string;
   cart!:number[];
   constructor() { }
