@@ -1,7 +1,6 @@
 
 
     <div class="product__item"   >
-         <!-- theb tnahi el link hetha w thotou f blasa okhra gedou , khater aslan zedtou f lekher 9bal ma nor9ed-->
             <div  class="product__item__pic set-bg" [style.background-image]="'url( '+ image + ')'">
               <ul class="product__hover">
                   <li><a ><img src="assets/img/icon/heart.png" alt=""></a></li>
@@ -19,5 +18,16 @@
                 <i class="fa fa-star-o"></i>
             </div>
             <h5>{{price}} DT</h5>
+            <div class="product__color__select">
+                <label for="pc-1">
+                    <input type="radio" id="pc-1">
+                </label>
+                <label class="active black" for="pc-2">
+                    <input type="radio" id="pc-2">
+                </label>
+                <label class="grey" for="pc-3">
+                    <input type="radio" id="pc-3">
+                </label>
+            </div>
         </div>
     </div>

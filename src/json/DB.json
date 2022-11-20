@@ -71,7 +71,139 @@
         "disponibility": true,
         "stars":2,
         "dateMiseEnVente":"11-02-2022"
-      } 
+      },
+      {
+        "id":4,
+        "title":"produit 4",
+        "category":"category4",
+        "description":"details produit4 ",
+        "price":"4",
+        "images":[
+          "assets/img/product/product-7.jpg",
+          "assets/img/product/product-8.jpg"
+        ],
+        "comments":[
+          {
+            "nom":"Dhia",
+            "message":"ya3tikom saha",
+            "email":"Dhia150@gmail.com",
+            "note":5
+          }
+        ],
+        "disponibility":true,
+        "stars":5,
+        "dateMiseEnVente":"20/10/2021"
+      },
+      {
+        "id":5,
+        "title":"produit 5",
+        "category":"category5",
+        "description":"details produit5 ",
+        "price":"7.12",
+        "images":[
+          "assets/img/product/product-9.jpg",
+          "assets/img/product/product-10.jpg"
+        ],
+        "comments":[
+          {
+            "nom":"wissem",
+            "message":"son3 maghchouch allah yehdikom",
+            "email":"xXSamuraiXx@gmail.com",
+            "note":0
+          }
+        ],
+        "disponibility":false,
+        "stars":0,
+        "dateMiseEnVente":"7/9/2022"
+      },
+      {
+        "id":6,
+        "title":"produit 6",
+        "category":"category6",
+        "description":"details produit6 ",
+        "price":"2.7",
+        "images":[
+          "assets/img/product/product-11.jpg",
+          "assets/img/product/product-12.jpg"
+        ],
+        "comments":[
+          {
+            "nom":"maamoun",
+            "message":"haja moch normal it's beyond limits keep going",
+            "email":"MaamounGeslieddineGeslewa5@gmail.com",
+            "note":4.5
+          }
+        ],
+        "disponibility":false,
+        "stars":4,
+        "dateMiseEnVente":"14/2/2022"
+      },
+      {
+        "id":7,
+        "title":"produit 7",
+        "category":"category7",
+        "description":"details produit7 ",
+        "price":"12",
+        "images":[
+          "assets/img/product/product-12.jpg",
+          "assets/img/product/product-12.jpg"
+        ],
+        "comments":[
+          {
+            "nom":"yesser",
+            "message":"normal",
+            "email":"MedYessr5000@gmail.com",
+            "note":2.5
+          }
+        ],
+        "disponibility":false,
+        "stars":2,
+        "dateMiseEnVente":"18/7/2022"
+      },
+      {
+        "id":8,
+        "title":"produit 8",
+        "category":"category8",
+        "description":"details produit8 ",
+        "price":"100",
+        "images":[
+          "assets/img/product/product-13.jpg",
+          "assets/img/product/product-13.jpg"
+        ],
+        "comments":[
+          {
+            "nom":"yesser",
+            "message":"normal",
+            "email":"MedYessr5000@gmail.com",
+            "note":2.5
+          }
+        ],
+        "disponibility":false,
+        "stars":2,
+        "dateMiseEnVente":"18/7/2022"
+      },
+      {
+        "id":9,
+        "title":"produit 9",
+        "category":"category9",
+        "description":"details produit9 ",
+        "price":"6.8",
+        "images":[
+          "assets/img/product/banner-2.jpg",
+          "assets/img/product/banner-2.jpg"
+        ],
+        "comments":[
+          {
+            "nom":"yesser",
+            "message":"normal",
+            "email":"MedYessr5000@gmail.com",
+            "note":2.5
+          }
+        ],
+        "disponibility":false,
+        "stars":2,
+        "dateMiseEnVente":"18/7/2022"
+      }
     ],
     "adminUsers":[
       {
