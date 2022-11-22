@@ -15,13 +15,12 @@ export class ProduitComponent implements OnInit {
   @Input() image!:String;
   @Input() disponibility!:boolean;
   @Input() stars!:number;
-  cart!:Article[];
   constructor(private cartService:CartService) { }
 
   ngOnInit(): void {
-    this.cart=this.cartService.getCart();
+
   }
   addProduitToCart(idToAdd:number){
-    this.cartService.addToCart(idToAdd);
+    this.cartService.addToCart(idToAdd,1);
   }
 }

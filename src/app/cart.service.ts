@@ -11,8 +11,8 @@ export class CartService {
   getCart(){
     return this.cart;
   }
-  
-  addToCart(idToAdd:number){
+
+  addToCart(idToAdd:number,quantite:number){
     if(localStorage.getItem("cart")!=null){
       this.str = String(localStorage.getItem("cart"));
       this.cart = JSON.parse(this.str);
@@ -20,7 +20,7 @@ export class CartService {
       if(!found){
         var obj:Article={
           id:idToAdd,
-          qte:0
+          qte:quantite
         };
         this.cart.push(obj);
         this.str=JSON.stringify(this.cart);
@@ -32,7 +32,7 @@ export class CartService {
      }
     }
     else{
-      this.str = '[{"id":'+idToAdd+',"qte":0}]';
+      this.str = '[{"id":'+idToAdd+',"qte":'+quantite+'}]';
       localStorage.setItem("cart",this.str);
       alert("Added to cart");
     }
