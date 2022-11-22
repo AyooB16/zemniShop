@@ -11,6 +11,7 @@ export class CartService {
   getCart(){
     return this.cart;
   }
+  
   addToCart(idToAdd:number){
     if(localStorage.getItem("cart")!=null){
       this.str = String(localStorage.getItem("cart"));
