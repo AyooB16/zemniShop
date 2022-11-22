@@ -11,7 +11,7 @@ export class ProduitService {
   getProduits():Observable<Produit[]>{
     return this.http.get<Produit[]>(URL+'/products');
   }
-  addproduit(p:Produit):Observable<Produit>
+  addProduit(p:Produit):Observable<Produit>
   {
       return this.http.post<Produit>(URL+'/products',p);
   }
@@ -23,4 +23,16 @@ export class ProduitService {
   {
     return this.http.put<Produit>(URL+"/products/"+id,p);
   }
+  getProduit(id:number):Observable<Produit>{
+    return this.http.get<Produit>(URL+'/products'+id);
+  }
+  selectedProduit(ids:number[]):Observable<Produit[]>{
+    var str:string;
+    str="?";
+    for(var id of ids){
+      str=str+"id="+id+"&";
+    }
+    return this.http.get<Produit[]>(URL+'/products'+str);
+  }
+  
 }

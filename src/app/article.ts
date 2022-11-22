@@ -1,7 +1,8 @@
 
 export class Article {
+    [x: string]: number;
     constructor(
-    prod:number,
+    id:number,
     qte:number
    ){}
    }

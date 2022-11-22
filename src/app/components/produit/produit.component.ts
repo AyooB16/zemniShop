@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Cart } from 'src/app/cart';
+import { Article } from 'src/app/article';
+import { CartService } from 'src/app/cart.service';
 
 @Component({
   selector: 'app-produit',
@@ -14,32 +15,13 @@ export class ProduitComponent implements OnInit {
   @Input() image!:String;
   @Input() disponibility!:boolean;
   @Input() stars!:number;
-  /*@Input()xyz!:produit*/ 
-  str!:string;
-  cart!:number[];
-  constructor() { }
+  cart!:Article[];
+  constructor(private cartService:CartService) { }
 
   ngOnInit(): void {
+    this.cart=this.cartService.getCart();
   }
-  addToCart(idToAdd:number){
-    if(localStorage.getItem("cart")!=null){
-      this.str = String(localStorage.getItem("cart"));
-      this.cart = JSON.parse(this.str);
-      if(this.cart.indexOf(idToAdd)==-1){  
-        this.cart.push(idToAdd);
-        this.str=JSON.stringify(this.cart);
-        localStorage.setItem("cart",this.str); 
-        alert("Added to cart");
-      }
-      else{
-        alert("Already into cart");
-      }
-    }
-    else{
-      this.str = '['+idToAdd+']';
-      localStorage.setItem("cart",this.str);
-      alert("Added to cart");
-    }
-    
+  addProduitToCart(idToAdd:number){
+    this.cartService.addToCart(idToAdd);
   }
 }
