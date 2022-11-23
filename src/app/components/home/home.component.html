@@ -1,18 +1,19 @@
-<section class="hero" >
-    <div class="heroSlider" >
-        <div class="heroItem" >
+<section class="hero">
+    <div class="heroSlider">
+        <div class="heroItem">
             <div class="frame">
-            <img src="assets\unfinished-jug.jpg" alt="" class="sliderImg">
+                <img src="assets\unfinished-jug.jpg" alt="" class="sliderImg">
 
             </div>
             <div class="sliderBg"></div>
             <h6 class="sliderTitle1">old but gold</h6>
             <h2 class="sliderTitle2"> culutres grow<br>the vine of tradition .</h2>
             <p class="sliderParg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
-                Hic quis reprehenderit dolore perferendis ipsam possimus dignissimos, <br>nobis iste, culpa officia illum quasi! Unde quibusdam recusandae 
+                Hic quis reprehenderit dolore perferendis ipsam possimus dignissimos, <br>nobis iste, culpa officia
+                illum quasi! Unde quibusdam recusandae
             </p>
             <a routerLink="/shop" class="buyButton">
-                 SHOP NOW!<span class="arrow_right"><i class="fa-solid fa-arrow-right"></i></span>
+                SHOP NOW!<span class="arrow_right"><i class="fa-solid fa-arrow-right"></i></span>
             </a>
             <div class="hero_social">
                 <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -57,7 +58,7 @@
                         <img src="assets\Sans titre (25).png" alt="">
                     </div>
                     <div class="banner__item__text">
-                        
+
                         <h2>يوفى مال الجدّين وتبقى صنعة اليدين</h2>
                         <a routerLink="/shop">Shop now</a>
                     </div>
@@ -66,69 +67,27 @@
         </div>
     </div>
 </section>
-    <!-- Product Section Begin -->
-    <section class="product spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="filter__controls">
-                        <li class="active" data-filter="*">Best Sellers</li>
-                        <li data-filter=".new-arrivals">New Arrivals</li>
-                        <li data-filter=".hot-sales">Hot Sales</li>
-                    </ul>
-                </div>
+<!-- Product Section Begin -->
+<section class="product spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="filter__controls">
+                    <li class="active" data-filter="*">Best Sellers</li>
+                    <li data-filter=".new-arrivals">New Arrivals</li>
+                    <li data-filter=".hot-sales">Hot Sales</li>
+                </ul>
             </div>
-            <!--<div class="row product__filter">
-                <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals ">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" [style.background-image]="'url( '+ image + ')'">
-                            <span class="label">New</span>
-                            <ul class="product__hover">
-                                <li><a href="#"><img src="assets/img/icon/heart.png" alt=""></a></li>
-                                <li><a href="#"><img src="assets/img/icon/search.png" alt=""></a></li>
-                            </ul>
-                        </div>
-                        <div class="product__item__text">
-                            <h6>{{title}}</h6>
-                            <a role="button" (click)="addToCart()" class="add-cart">+ Add To Cart</a>
-                            <div class="rating">
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                            </div>
-                            <h5>{{price}}</h5>
-                            <div class="product__color__select">
-                                <label for="pc-1">
-                                    <input type="radio" id="pc-1">
-                                </label>
-                                <label class="active black" for="pc-2">
-                                    <input type="radio" id="pc-2">
-                                </label>
-                                <label class="grey" for="pc-3">
-                                    <input type="radio" id="pc-3">
-                                </label>
-                            </div>
-                        </div>
+        </div>
+        <div class="row">
+            <div class=" row product__filter">
+                <div class="col-lg-12">
+                    <div *ngFor="let prod of lesProduits" class="col-lg-4 col-md-4 col-sm-4">
+                        <app-produit [product]="prod"></app-produit>
                     </div>
                 </div>
-                
-                
-                        </div>-->
-                       
-                            <div class="row">
-                                <div class=" row product__filter">
-                                    <div class="col-lg-12">
-                                        <div *ngFor="let prod of lesProduits" class="col-lg-4 col-md-4 col-sm-4">
-                                            <app-produit [id]="prod.id" [title]="prod.title" [category]="prod.category" [price]="prod.price" [image]="prod.images[0]" [disponibility]="prod.disponibility" [stars]="prod.stars" >
-                                            </app-produit>
-                                            <!--<app-produit>[xyz]=prod</app->-->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>  
-    </section>
-
-
+            </div>
+        </div>
+    </div>
+</section>
+{{lesProduits|json}}

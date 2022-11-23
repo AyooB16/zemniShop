@@ -34,5 +34,6 @@ export class ProduitService {
     }
     return this.http.get<Produit[]>(URL+'/products'+str);
   }
+
   
 }

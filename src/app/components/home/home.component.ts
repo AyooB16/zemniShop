@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import {  Router } from '@angular/router';
 import { Produit } from 'src/app/produit';
 import { ProduitService } from 'src/app/produit.service';
 
@@ -9,15 +10,9 @@ import { ProduitService } from 'src/app/produit.service';
 })
 export class HomeComponent implements OnInit {
   lesProduits!:Produit[];
-  @Input() id!:number;
-  @Input() title!:String;
-  @Input() category!:String;
-  @Input() price!:number;
-  @Input() image!:String;
-  @Input() disponibility!:boolean;
-  @Input() stars!:number;
+  id!:number;
   product:any={};
-  constructor(private produitService:ProduitService) { }
+  constructor(private produitService:ProduitService,private route:Router) { }
  
   ngOnInit(): void {
     this.produitService.getProduits().subscribe(data => this.lesProduits = data)
@@ -31,5 +26,6 @@ export class HomeComponent implements OnInit {
       localStorage.setItem('cart',JSON.stringify(cart));
       localStorage.setItem('product',JSON.stringify(ProductId+1))
   }
+
 
 }

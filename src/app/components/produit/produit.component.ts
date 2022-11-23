@@ -1,6 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Article } from 'src/app/article';
 import { CartService } from 'src/app/cart.service';
+import { Produit } from 'src/app/produit';
 
 @Component({
   selector: 'app-produit',
@@ -8,14 +10,9 @@ import { CartService } from 'src/app/cart.service';
   styleUrls: ['./produit.component.css']
 })
 export class ProduitComponent implements OnInit {
-  @Input() id!:number;
-  @Input() title!:String;
-  @Input() category!:String;
-  @Input() price!:number;
-  @Input() image!:String;
-  @Input() disponibility!:boolean;
-  @Input() stars!:number;
-  constructor(private cartService:CartService) { }
+  @Input()product!:Produit
+  
+  constructor(private cartService:CartService,private activatedRoute:ActivatedRoute,private route:Router) { }
 
   ngOnInit(): void {
 
