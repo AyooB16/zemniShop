@@ -10,10 +10,13 @@ import { ProduitService } from 'src/app/produit.service';
 export class ShopComponent implements OnInit {
   lesProduits!:Produit[];
 
-  constructor(private produitService:ProduitService) { }
+  constructor(private produitService:ProduitService) { 
+    
+  }
 
   ngOnInit(): void {
-    this.produitService.getProduits().subscribe(data => this.lesProduits = data)
+    this.produitService.getProduits().subscribe(data => {this.produitService.setProduitsService(data); this.lesProduits=data});
   }
+    
 
 }

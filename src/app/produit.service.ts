@@ -8,6 +8,13 @@ const URL = 'http://localhost:3000';
 })
 export class ProduitService {
   constructor(private http:HttpClient) { }
+  private lesProduitsService!:Produit[];
+  getProduitsService():Produit[]{
+    return this.lesProduitsService;
+  }
+  setProduitsService(prods:Produit[]){
+    this.lesProduitsService=prods;
+  }
   getProduits():Observable<Produit[]>{
     return this.http.get<Produit[]>(URL+'/products');
   }
@@ -23,17 +30,8 @@ export class ProduitService {
   {
     return this.http.put<Produit>(URL+"/products/"+id,p);
   }
-  getProduit(id:number):Observable<Produit>{
-    return this.http.get<Produit>(URL+'/products'+id);
+  getProduitById(id:number):Produit{
+    return this.lesProduitsService.filter(prod => prod.id == id)[0];
   }
-  selectedProduit(ids:number[]):Observable<Produit[]>{
-    var str:string;
-    str="?";
-    for(var id of ids){
-      str=str+"id="+id+"&";
-    }
-    return this.http.get<Produit[]>(URL+'/products'+str);
-  }
-
   
 }

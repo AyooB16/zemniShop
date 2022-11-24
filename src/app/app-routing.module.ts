@@ -14,9 +14,9 @@ import { ShopComponent } from './components/shop/shop.component';
 const routes: Routes = [
   {path:'admin',title:'Admin Panel',component:AdminComponent},
   {path:'home',title:'Zemni Shop',component:HomeComponent},
-  {path:'shop',title:'Shop',component:ShopComponent},
+  {path:'produits',title:'Produits',component:ShopComponent},
   {path:'pages/aboutUs',title:'About Us',component:AboutUsComponent},
-  {path:'pages/shopDetails/:id',title:'Shop Details',component:ShopDetailsComponent},
+  {path:'produits/:id',title:'Details Produits',component:ShopDetailsComponent},
   {path:'pages/shopDetails',title:'shop Details',component:ShopDetailsComponent},
   {path:'pages/shopCart',title:'Shop Cart',component:ShopCartComponent},
   {path:'pages/checkOut',title:'Check Out',component:CheckOutComponent},
