@@ -30,8 +30,8 @@ export class ProduitService {
   {
     return this.http.put<Produit>(URL+"/products/"+id,p);
   }
-  getProduitById(id:number):Produit{
-    return this.lesProduitsService.filter(prod => prod.id == id)[0];
+  getProduitById(id:number):Observable<Produit>{
+    return this.http.get<Produit>(URL+'/products/'+id);
   }
-  
+
 }

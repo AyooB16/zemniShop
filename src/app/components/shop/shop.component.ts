@@ -9,7 +9,7 @@ import { ProduitService } from 'src/app/produit.service';
 })
 export class ShopComponent implements OnInit {
   lesProduits!:Produit[];
-
+  searchStr:string='';
   constructor(private produitService:ProduitService) { 
     
   }
@@ -18,5 +18,8 @@ export class ShopComponent implements OnInit {
     this.produitService.getProduits().subscribe(data => {this.produitService.setProduitsService(data); this.lesProduits=data});
   }
     
-
+  produitByTitle(title:string){
+    const tab = this.lesProduits.filter(a => a.title.toUpperCase().indexOf(title.toUpperCase()) > -1 || title.toUpperCase()=='');
+      return tab;
+    }
 }

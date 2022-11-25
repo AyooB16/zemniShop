@@ -1,14 +1,15 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-3">
-            el bar ta3 el filters
+            
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"   [(ngModel)]="searchStr">
         </div>
         <div class="col-lg-9">
-            <div>
-                <div *ngFor="let prod of lesProduits" class="col-lg-4 col-md-6 col-sm-6">
+    
+                <div *ngFor="let prod of produitByTitle(searchStr)" class="col-lg-4 col-md-6 col-sm-6">
                     <app-produit [product]='prod'></app-produit>
                 </div>
-            </div>
+  
         </div>
     </div>
 </div>

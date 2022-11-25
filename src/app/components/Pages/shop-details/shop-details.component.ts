@@ -18,9 +18,8 @@ export class ShopDetailsComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.produitService.getProduits().subscribe(data => this.lesProduits = data)
     this.id=this.activatedRoute.snapshot.params['id']
-    this.Prod=this.produitService.getProduitById(this.id)
+    this.produitService.getProduitById(this.id).subscribe(data => this.Prod = data)
   }
   addProduitToCart(idToAdd:number){
     if(this.qte>=1){

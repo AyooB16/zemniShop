@@ -11,7 +11,7 @@ import { ProduitService } from 'src/app/produit.service';
 })
 export class HeaderComponent implements OnInit {
   cart!:Article[];
-  constructor(private cartService:CartService) { }
+  constructor(private cartService:CartService,private produitService:ProduitService) { }
   ngOnInit(): void {
     this.cart=this.cartService.getCart();
   }
