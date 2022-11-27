@@ -8,7 +8,9 @@
         "price": 50.5,
         "images":[
           "assets/img/product/product-1.jpg",
-          "assets/img/product/product-2.jpg"
+          "assets/img/product/product-2.jpg",
+          "assets/img/product/product-15.jfif",
+          "assets/img/product/product-16.jfif"
         ],
         "comments":[
           {

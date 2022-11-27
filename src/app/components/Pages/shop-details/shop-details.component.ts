@@ -30,6 +30,7 @@ export class ShopDetailsComponent implements OnInit {
     }
     
   }
+  
 }
 
 
