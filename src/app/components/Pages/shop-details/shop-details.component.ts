@@ -14,6 +14,7 @@ export class ShopDetailsComponent implements OnInit {
   id!:number;
   lesProduits!:Produit[];
   qte=1;
+  test!:boolean;
   constructor(private activatedRoute:ActivatedRoute,private produitService:ProduitService , private cartService:CartService) { 
   }
 
@@ -29,6 +30,15 @@ export class ShopDetailsComponent implements OnInit {
       alert("La quantité doit etre non null");
     }
     
+  }
+  ajoutCommande(id:number)
+  {
+
+  }
+  Addcomment()
+  {
+    console.log(this.test);
+    return this.test=true;
   }
   
 }

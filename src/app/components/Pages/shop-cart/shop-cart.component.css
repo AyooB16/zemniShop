@@ -1,0 +1,32 @@
+.banner_area .banner_inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 200px;
+    background: #f6f6f6;
+    z-index: 1;
+    margin-top: -170px;
+}
+.banner_area h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+#cart-container
+{   
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+#cart-container thead
+{
+    font-weight: 700;
+}
+#cart-container thead td
+{
+    background: #dca21a;
+    color: #fff;
+    border: none;
+    border-radius: 0%;
+    padding: 6px 2px;
+}
+

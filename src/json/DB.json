@@ -2,210 +2,269 @@
     "products": [
       {
         "id": 1,
-        "title": "Produit 1",
-        "category":"category1",
-        "description":"bla bla bla bla ",
-        "price": 50.5,
+        "title": "Shekaz pochette Tlila",
+        "category":"Accessoires",
+        "description":"Pochette en cuir de vachette  apportent une touche d’authenticité",
+        "price": 200,
         "images":[
-          "assets/img/product/product-1.jpg",
-          "assets/img/product/product-2.jpg",
-          "assets/img/product/product-15.jfif",
-          "assets/img/product/product-16.jfif"
+          "assets/images/produit1.jpg",
+          "assets/images/produit1-1.jpg",
+          "assets/images/produit1-2.jpg"
         ],
         "comments":[
           {
             "nom":"Ahmed",
             "message":"gooood",
-            "email":"elisabeth_higgins@mondicil.immobilien",
-            "note":3
+            "email":"elisabeth_higgins@mondicil.immobilien"
+            
           },
           {
             "nom":"Souhail",
             "message":"haja tayara",
-            "email":"glenda_bender@apextri.lotto",
-            "note":4
+            "email":"glenda_bender@apextri.lotto"
+        
           }
          ],
         "disponibility": true,
-        "stars":4,
         "dateMiseEnVente":"10-10-2022"
       },
       {
         "id": 2,
-        "title": "Produit 2",
-        "category":"category2",
-        "description":"details produit 2 ",
-        "price": 10,
+        "title": "Shekaz sac à main le cuivre",
+        "category":"Accessoires",
+        "description":"Sac besace en cuir de croute de  vachette aspect daim.",
+        "price": 220,
         "images":[
-          "assets/img/product/product-3.jpg",
-          "assets/img/product/product-4.jpg"
+          "assets/images/produit2.jpg",
+          "assets/images/produit2-1.jpg",
+          "assets/images/produit2-2.jpg"
         ],
         "comments":[
           {
             "nom":"Oussema",
             "message":"qualite khayba",
-            "email":"oussema@gmail.com",
-            "note":1
+            "email":"oussema@gmail.com"
           }
          ],
         "disponibility": true,
-        "stars":3,
         "dateMiseEnVente":"11-02-2022"
       } ,
       {
         "id": 3,
-        "title": "Produit 3",
-        "category":"category3",
-        "description":"details produit3 ",
-        "price": 10,
+        "title": "Corbeille en Halfa Naturelle Avec Bordure et Centre en Oranger 25*7 cm",
+        "category":"house decoration",
+        "description":"Panier en fibres végétales (HALFA) pour ceux qui préfèrent une décoration intérieure naturelle, saine et healthy. Corbeille artisanale 100% naturelle qui sert pour décoration maison, décoration cuisine, décoration chambre-à-coucher, décoration Salon et même décoration bureau et décoration boutique.  ",
+        "price": 30,
         "images":[
-          "assets/img/product/product-5.jpg",
-          "assets/img/product/product-6.jpg"
+          "assets/images/produit3.jpg",
+          "assets/images/produit3-1.jpg",
+          "assets/images/produit3-2.jpg"
         ],
         "comments":[
           {
             "nom":"Oussema",
             "message":"qualite khayba",
-            "email":"oussema@gmail.com",
-            "note":1
+            "email":"oussema@gmail.com"
           }
          ],
         "disponibility": true,
-        "stars":2,
         "dateMiseEnVente":"11-02-2022"
       },
       {
         "id":4,
-        "title":"produit 4",
-        "category":"category4",
-        "description":"details produit4 ",
-        "price":"4",
+        "title":"Corbeille en Halfa Naturelle 30*5 cm",
+        "category":"Home decoration",
+        "description":"Panier en fibres végétales (HALFA) pour ceux qui préfèrent une décoration intérieure Bio et eco-friendly. Corbeille artisanale 100% naturelle qui sert pour décoration maison, décoration cuisine, décoration chambre-à-coucher, décoration Salon et même décoration bureau et décoration boutique. ",
+        "price":35,
         "images":[
-          "assets/img/product/product-7.jpg",
-          "assets/img/product/product-8.jpg"
+          "assets/images/produit4.jpg",
+          "assets/images/produit4-1.jpg",
+          "assets/images/produit4-2.jpg"
         ],
         "comments":[
           {
             "nom":"Dhia",
             "message":"ya3tikom saha",
-            "email":"Dhia150@gmail.com",
-            "note":5
+            "email":"Dhia150@gmail.com"
           }
         ],
         "disponibility":true,
-        "stars":5,
         "dateMiseEnVente":"20/10/2021"
       },
       {
         "id":5,
-        "title":"produit 5",
-        "category":"category5",
-        "description":"details produit5 ",
-        "price":"7.12",
+        "title":"Housse de coussin cotton désign",
+        "category":"Home decoration",
+        "description":"Housse de coussin décoratif cotton design 40*40 cm ",
+        "price":33,
         "images":[
-          "assets/img/product/product-9.jpg",
-          "assets/img/product/product-10.jpg"
+          "assets/images/produit5.jpg",
+          "assets/images/produit5-1.jpg",
+          "assets/images/produit5-2.jpg"
         ],
         "comments":[
           {
             "nom":"wissem",
             "message":"son3 maghchouch allah yehdikom",
-            "email":"xXSamuraiXx@gmail.com",
-            "note":0
+            "email":"xXSamuraiXx@gmail.com"
           }
         ],
         "disponibility":false,
-        "stars":0,
         "dateMiseEnVente":"7/9/2022"
       },
       {
         "id":6,
-        "title":"produit 6",
-        "category":"category6",
-        "description":"details produit6 ",
-        "price":"2.7",
+        "title":"Panier à Pain en HALFA pr Décoration intérieure 24*15 cm",
+        "category":"Accessoires",
+        "description":"Panier à pain en Halfa (fibres végétales) pour ceux qui préfèrent une décoration intérieure naturelle, saine et Healthy. Corbeille artisanale 100% naturelle qui sert pour décoration maison, décoration cuisine, décoration chambre-à-coucher, décoration Salon et même décoration bureau et décoration boutique. ",
+        "price":23,
         "images":[
-          "assets/img/product/product-11.jpg",
-          "assets/img/product/product-12.jpg"
+          "assets/images/produit6.jpg",
+          "assets/images/produit6-1.jpg",
+          "assets/images/produit6-2.jpg"
         ],
         "comments":[
           {
             "nom":"maamoun",
             "message":"haja moch normal it's beyond limits keep going",
-            "email":"MaamounGeslieddineGeslewa5@gmail.com",
-            "note":4.5
+            "email":"MaamounGeslieddineGeslewa5@gmail.com"
           }
         ],
         "disponibility":false,
-        "stars":4,
         "dateMiseEnVente":"14/2/2022"
       },
       {
         "id":7,
-        "title":"produit 7",
-        "category":"category7",
-        "description":"details produit7 ",
-        "price":"12",
+        "title":"Tapis “Margoum bordure MOCHTA” by Hand&Crafts Eco-friendly 100 % Naturel à base de Laine Pure 194 x 100 cm",
+        "category":"Home decoration",
+        "description":"Le Margoum est un produit en laine naturelle  très appréciée par sa finesse, fait à la main d’une femme qui vit à Toujane, un village montagneux du sud Tunisien. Ce tapis est un des éléments de décoration rares à trouver vu ses caractéristiques bien propres à lui. Il convient à la décoration de salon, de chambre à coucher, et de chambre d’enfant dont il ajoute une touche ancestrale comme au bon vieux temps.  ",
+        "price":336,
         "images":[
-          "assets/img/product/product-12.jpg",
-          "assets/img/product/product-12.jpg"
+          "assets/images/produit7.jpg",
+          "assets/images/produit7-1.jpg",
+          "assets/images/produit7-2.jpg"
         ],
         "comments":[
           {
             "nom":"yesser",
             "message":"normal",
-            "email":"MedYessr5000@gmail.com",
-            "note":2.5
+            "email":"MedYessr5000@gmail.com"
           }
         ],
         "disponibility":false,
-        "stars":2,
         "dateMiseEnVente":"18/7/2022"
       },
       {
         "id":8,
-        "title":"produit 8",
-        "category":"category8",
-        "description":"details produit8 ",
-        "price":"100",
+        "title":"Tapis “Margoum Greige” by Hand&Crafts Eco-friendly 100 % Naturel à base de Laine Pure 209 x 110 cm",
+        "category":"Home decoration",
+        "description":"Notre tapis Hand & Crafts vous permet une décoration eco-friendly avec un timbre authentique, spirituel, qui voyage dans l’histoire et qui convient à la mode moderne.Que vous songez à la décoration de votre maison, décoration  de votre salon, décoration  d’une chambre, ou décoration d’une cuisine, notre tapis  Vintage  style Amazigh et berbère, aussi appelé margoum vous permet de jouir d’une décoration  unique, originale et authentique.Que vous cherchez une décoration pour chambre adulte ou chambre bébé ou chambre ado, ce tapis Vintage « Hand & Crafts » sert de descente de lit et ajoute une touche ancestrale (comme au bon vieux temps) à une décoration de chambre à coucher moderne.Ce tapis «Hand & Crafts» est l’un des éléments de décoration rares à trouver vu ses caractéristiques bien propres à lui. ",
+        "price":289,
         "images":[
-          "assets/img/product/product-13.jpg",
-          "assets/img/product/product-13.jpg"
+          "assets/images/produit8.jpg",
+          "assets/images/produit8-1.jpg",
+          "assets/images/produit8-2.jpg"
         ],
         "comments":[
           {
             "nom":"yesser",
             "message":"normal",
-            "email":"MedYessr5000@gmail.com",
-            "note":2.5
+            "email":"MedYessr5000@gmail.com"
           }
         ],
         "disponibility":false,
-        "stars":2,
         "dateMiseEnVente":"18/7/2022"
       },
       {
         "id":9,
-        "title":"produit 9",
-        "category":"category9",
-        "description":"details produit9 ",
-        "price":"6.8",
+        "title":"Tapis vintage style amazigh berbère pour décoration boutique et bureau, fait main en 100% laine, 140 x 70 cm",
+        "category":"Home decoration",
+        "description":"Notre tapis « Hand & Crafts » vous permet une décoration eco-friendly avec un timbre authentique, spirituel, qui voyage dans l’histoire et qui convient à la mode moderne.Que vous songez à la décoration de votre maison, décoration  de votre salon, décoration  d’une chambre, ou décoration d’une cuisine, notre tapis  Vintage  style Amazigh et berbère, aussi appelé margoum vous permet de jouir d’une décoration  unique, originale et authentique.Que vous cherchez une décoration pour chambre adulte ou chambre bébé ou chambre ado, ce tapis Vintage « Hand & Crafts » sert de descente de lit et ajoute une touche ancestrale (comme au bon vieux temps) à une décoration de chambre à coucher moderne.",
+        "price":132,
         "images":[
-          "assets/img/product/banner-2.jpg",
-          "assets/img/product/banner-2.jpg"
+          "assets/images/produit9-1.jpg",
+          "assets/images/produit9-1.jpg",
+          "assets/images/produit9-2.jpg"
         ],
         "comments":[
           {
             "nom":"yesser",
             "message":"normal",
-            "email":"MedYessr5000@gmail.com",
-            "note":2.5
+            "email":"MedYessr5000@gmail.com"
           }
         ],
         "disponibility":false,
-        "stars":2,
         "dateMiseEnVente":"18/7/2022"
-      }
+      },
+      { 
+          "id":10,
+          "title":"Housse de coussin cotton désign",
+          "category":"Home decoration",
+          "description":"Housse de coussin décoratif cotton design 40*40 cm",
+          "price":33,
+          "images":[
+            "assets/images/produit10.jpg",
+            "assets/images/produit10-1.jpg",
+            "assets/images/produit10-2.jpg"
+          ]
+      },
+      { 
+        "id":11,
+        "title":"Pichet en terre cuite noire de Bisalhães",
+        "category":"Pottery",
+        "description":"Ce pichet, utilisé au Portugal depuis plus de 500 ans, fait partie des porteries tournées par Sezinando Fernandes Ramalho, probablement le dernier potier à utiliser la technique ancestrale de fabrication des poteries noires de Bisalhães.",
+        "price":85,
+        "images":[
+          "assets/images/produit11.webp",
+          "assets/images/produit11-1.webp"
+        ]
+    },
+    { 
+      "id":12,
+      "title":"Moules à pasteis de Nata en terre cuite noire de Bisalhães - Lot de 5",
+      "category":"Pottery",
+      "description":"Les moules pour cuisiner les fameux Pasteis de Nata, mais cette fois en terre cuite noire de Bisalhães. Ces moules peuvent également faire fonction de ramequin et font partie des porteries tournées par Sezinando Fernandes Ramalho, probablement le dernier potier à utiliser la technique ancestrale de fabrication des poteries noires de Bisalhães.",
+      "price":50,
+      "images":[
+        "assets/images/produit12.webp",
+        "assets/images/produit12-1.webp"
+      ]
+  },
+  { 
+    "id":13,
+    "title":"Foulard Tunisien",
+    "category":"clothes",
+    "description":"",
+    "price":10,
+    "images":[
+      "assets/images/produit15-1.webp",
+      "assets/images/produit15-1.webp",
+      "assets/images/produit15-2.webp"
+    ]
+},
+{ 
+  "id":14,
+  "title":"jebba Tunisien",
+  "category":"clothes",
+  "description":"",
+  "price":150,
+  "images":[
+    "assets/images/produit16.jpg",
+    "assets/images/produit17.jpg"
+  ]
+},
+{ 
+  "id":15,
+  "title":"chechiya Tunisien",
+  "category":"clothes",
+  "description":"",
+  "price":20,
+  "images":[
+    "assets/images/produit19-1.jpg",
+    "assets/images/produit18.jpg",
+    "assets/images/produit19.jpg"
+  ]
+}
     ],
     "adminUsers":[
       {

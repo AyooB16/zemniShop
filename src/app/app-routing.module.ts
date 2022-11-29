@@ -22,6 +22,7 @@ const routes: Routes = [
   {path:'pages/checkOut',title:'Check Out',component:CheckOutComponent},
   {path:'blog',title:'Blog',component:BlogComponent},
   {path:'contact',title:'Contact Us',component:ContactComponent},
+  {path:'shopCart',title:'cart',component:ShopCartComponent},
   {path:'',redirectTo:'home',pathMatch:'full'},
   {path:'**',title:'Page Not Found 404',component:ErrorComponent}
 ];
