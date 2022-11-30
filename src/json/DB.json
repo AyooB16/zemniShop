@@ -26,7 +26,8 @@
           }
          ],
         "disponibility": true,
-        "dateMiseEnVente":"10-10-2022"
+        "dateMiseEnVente":"10-10-2022",
+        "stars":5
       },
       {
         "id": 2,
@@ -47,7 +48,8 @@
           }
          ],
         "disponibility": true,
-        "dateMiseEnVente":"11-02-2022"
+        "dateMiseEnVente":"11-02-2022",
+        "stars":4
       } ,
       {
         "id": 3,
@@ -68,7 +70,8 @@
           }
          ],
         "disponibility": true,
-        "dateMiseEnVente":"11-02-2022"
+        "dateMiseEnVente":"11-02-2022",
+        "stars":3
       },
       {
         "id":4,
@@ -89,7 +92,8 @@
           }
         ],
         "disponibility":true,
-        "dateMiseEnVente":"20/10/2021"
+        "dateMiseEnVente":"20/10/2021",
+        "stars":2
       },
       {
         "id":5,
@@ -110,7 +114,8 @@
           }
         ],
         "disponibility":false,
-        "dateMiseEnVente":"7/9/2022"
+        "dateMiseEnVente":"7/9/2022",
+        "stars":1
       },
       {
         "id":6,
@@ -131,7 +136,8 @@
           }
         ],
         "disponibility":false,
-        "dateMiseEnVente":"14/2/2022"
+        "dateMiseEnVente":"14/2/2022",
+        "stars":5
       },
       {
         "id":7,
@@ -152,7 +158,8 @@
           }
         ],
         "disponibility":false,
-        "dateMiseEnVente":"18/7/2022"
+        "dateMiseEnVente":"18/7/2022",
+        "stars":3
       },
       {
         "id":8,
@@ -173,7 +180,8 @@
           }
         ],
         "disponibility":false,
-        "dateMiseEnVente":"18/7/2022"
+        "dateMiseEnVente":"18/7/2022",
+        "stars":3
       },
       {
         "id":9,
@@ -194,7 +202,8 @@
           }
         ],
         "disponibility":false,
-        "dateMiseEnVente":"18/7/2022"
+        "dateMiseEnVente":"18/7/2022",
+        "stars":4
       },
       { 
           "id":10,
@@ -206,7 +215,8 @@
             "assets/images/produit10.jpg",
             "assets/images/produit10-1.jpg",
             "assets/images/produit10-2.jpg"
-          ]
+          ],
+          "stars":2
       },
       { 
         "id":11,
@@ -217,7 +227,8 @@
         "images":[
           "assets/images/produit11.webp",
           "assets/images/produit11-1.webp"
-        ]
+        ],
+        "stars":1
     },
     { 
       "id":12,
@@ -228,7 +239,8 @@
       "images":[
         "assets/images/produit12.webp",
         "assets/images/produit12-1.webp"
-      ]
+      ],
+      "stars":5
   },
   { 
     "id":13,
@@ -240,7 +252,8 @@
       "assets/images/produit15-1.webp",
       "assets/images/produit15-1.webp",
       "assets/images/produit15-2.webp"
-    ]
+    ],
+    "stars":2
 },
 { 
   "id":14,
@@ -251,7 +264,8 @@
   "images":[
     "assets/images/produit16.jpg",
     "assets/images/produit17.jpg"
-  ]
+  ],
+  "stars":5
 },
 { 
   "id":15,
@@ -263,7 +277,8 @@
     "assets/images/produit19-1.jpg",
     "assets/images/produit18.jpg",
     "assets/images/produit19.jpg"
-  ]
+  ],
+  "stars":4
 }
     ],
     "adminUsers":[

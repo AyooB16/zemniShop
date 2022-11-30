@@ -1,0 +1,10 @@
+.fa{
+    padding-right:5px;
+}
+            
+            
+ngb-rating{
+    font-size: 1.5rem;
+    padding-right: 0.1rem;
+    color:goldenrod;
+}

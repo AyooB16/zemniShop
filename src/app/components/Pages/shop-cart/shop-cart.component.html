@@ -13,17 +13,22 @@
   <table width="100%" class="container my-5">
     <thead>
       <tr>
-        <td>Remove</td>
+        <td>Id</td>
+        <td>Product</td>
         <td>Image</td>
         <td>Price</td>
         <td>Quantity</td>
-        <td>Total</td>
+        <td>Remove</td>
       </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr *ngFor="let prod of cartProduits">
+        <td>{{prod.id}}</td>
+        <td>{{prod.title}}</td>
+        <td><img [src]="prod.images[0]" /></td>
+        <td>{{prod.price}}</td>
+        <td><input type="number" min="1" value="1"></td>
         <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
-        <td><img [src]=""></td>
       </tr>
     </tbody>
   </table>

@@ -10,14 +10,17 @@
         <div class="product__item__text">
             <h6>{{product.title}}</h6>
             <a role="button" (click)="addProduitToCart(product.id)" class="add-cart">+ Add To Cart</a>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-                <i class="fa fa-star-o"></i>
-                <i class="fa fa-star-o"></i>
+            <div class="rating" >
+                <ng-container *ngFor="let item of stars; let i=index">
+                    <i class="fa" [ngClass]="{'fa-star-o':!item,'fa-star':item}" style='color:#e4b42f'></i>
+                </ng-container>
+
             </div>
+
+            <!-- <ngb-rating [(rate)]="product.stars" [readonly]="true" [max]="5"></ngb-rating> -->
+
+
             <h5>{{product.price}} DT</h5>
-        
+
         </div>
     </div>

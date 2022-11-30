@@ -19,6 +19,7 @@ import { AdminComponent } from './components/admin/admin.component';
 import { ProduitComponent } from './components/produit/produit.component';
 import { CommentComponent } from './components/comment/comment.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,7 +44,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatToolbarModule,
     HttpClientModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    NgbModule
     
   ],
   providers: [],

@@ -11,13 +11,21 @@ import { Produit } from 'src/app/produit';
 })
 export class ProduitComponent implements OnInit {
   @Input()product!:Produit
-  
+  stars:boolean[]=[true,true,true,true,true];
   constructor(private cartService:CartService,private activatedRoute:ActivatedRoute,private route:Router) { }
 
   ngOnInit(): void {
-
+    for(var i=0;i<5;i++){  
+      if(i>=this.product.stars){  
+        this.stars[i]=false;  
+        
+      } 
+    }
   }
   addProduitToCart(idToAdd:number){
     this.cartService.addToCart(idToAdd,1);
   }
+
+  
 }
+
